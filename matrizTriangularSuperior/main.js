@@ -4,9 +4,11 @@ function verificar(matrix,n)
     //bandera que nos indica en caso de que no sea una mts
     let flag = false;
     //recorremos todas las filas
+ciclo1:
     for (i = 1; i < n; i++)
     {
         //recorremos todas las columnas
+ciclo2:
         for (j = 0; j < i; j++)
         {
             //obtenemos el valor de una posicion especifica
@@ -17,7 +19,7 @@ function verificar(matrix,n)
             //si es otro numero, ya no cumple la condicion y se pone falso
             }else{
                 flag = false;
-                break;
+                break ciclo1;
             }
         }
     }
