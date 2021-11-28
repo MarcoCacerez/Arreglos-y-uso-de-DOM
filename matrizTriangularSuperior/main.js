@@ -1,3 +1,7 @@
+/**
+Marco Aldair de Jesus Caceres 18390579
+ */
+
 function verificar(matrix,n)
 {
     let i, j;

@@ -1,3 +1,6 @@
+/**
+Marco Aldair de Jesus Caceres 18390579
+ */
 function triangulo(nivel) {
     //seleccionamos el div, que contendra la piramide
     let cont = document.getElementById("contenedor");
